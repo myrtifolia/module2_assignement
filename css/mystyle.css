@@ -1,0 +1,93 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+
+body{
+font-family: "Palatino Linotype", serif;
+
+}
+
+h1{
+font-weight: bold; 
+font-size: 175%;
+text-align: center;
+padding-top: 15px;
+padding-bottom: 35px;
+}
+
+
+
+.container{
+	width:100%;
+}
+
+div {
+	background: gray;
+	padding: 10px;
+	margin:10px;
+	border: 1px solid;
+
+
+}
+
+
+header {
+	float: right;
+	margin-top: -10px;
+	margin-right: -10px;
+	text-align: center;
+	width: 100px;
+	padding: 10px;
+	border: 1px solid;
+	font-weight: bold;
+	font-size: 125%;
+
+}
+article {
+	clear:right;
+}
+
+
+#morning {
+	background: yellow;
+}
+
+#day {
+	background: blue;
+}
+
+#evening {
+	background: orange;
+}
+
+@media (min-width:992px){
+	.col-lg-4{
+		float:left;
+		width: 33.3%;
+	}
+  }
+
+@media (max-width:767px){
+	.col-sm-12{
+		float:center;
+		width:100%;
+	}
+  
+
+}
+
+@media (min-width: 768px) and (max-width:991px){
+	.col-md-6 {
+	float:left;
+    width: 50%;
+  }
+ 
+  .col-md-12 {
+  	float:left;
+    width: 100%;
+  }
+
+}
